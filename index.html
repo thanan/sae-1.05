@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Musiques</title>
+</head>
+<body>
+    <h1>Ma Sélection Musicale</h1>
+    <p>découvrez les musiques les plus écoutés de le personne que je suis</p>
+    <h2>La musique c'est un poulet on est au chicken spot ou quoi la team</h2>
+    
+    <h1>Ajouter une musique</h1>
+    <form id="musicForm">
+        <label for="titre">Titre de la musique :</label>
+        <input type="text" id="titre" name="titre" placeholder="Entrez le titre" required>
+      
+        <label for="descriptionMusique">Description :</label>
+        <input type="text" id="descriptionMusique" name="descriptionMusique" placeholder="Entrez une description" required>
+      
+        <label for="urlMusique">URL du fichier audio :</label>
+        <input type="text" id="urlMusique" name="urlMusique" placeholder="Entrez l'URL" required>
+      
+        <!-- Bouton d'envoi -->
+        <button type="button" id="submitButton">Envoyer</button>
+      </form>
+      
+
+    <div id="preview">
+        <h2>Aperçu :</h2>
+        <p><strong>Titre :</strong> <span id="previewTitre"></span></p>
+        <p><strong>Description :</strong> <span id="previewDescription"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+    <script src="data.js"></script>
+    
+<script src="script.js"></script>
+<script src="styles.css"></script>
+
+</body>
+</html>
